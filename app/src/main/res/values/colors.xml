@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta Guerreros de Hierro / Industrial -->
+    <color name="iron_bg">#0B0D10</color>
+    <color name="iron_surface">#13171E</color>
+    <color name="iron_stroke">#2C3442</color>
+    <color name="iron_text_silver">#C9D1D9</color>
+    <color name="iron_text_dim">#687384</color>
+    <color name="hazard_yellow">#F59E0B</color>
+    <color name="hazard_yellow_active">#FBBF24</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_industrial_card"
+    android:padding="12dp"
+    android:layout_marginBottom="6dp">
+
+    <TextView
+        android:id="@+id/txtDeviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textColor="@color/iron_text_silver"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/txtDeviceUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="monospace"
+        android:textColor="@color/iron_text_dim"
+        android:textSize="11sp" />
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/iron_bg"
+    android:padding="12dp">
+
+    <!-- Header Industrial con Bordes Rectos -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:background="@drawable/bg_industrial_card">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:fontFamily="monospace"
+            android:text="[ RED LOCAL // DLNA ]"
+            android:textColor="@color/iron_text_silver"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:background="@drawable/btn_industrial_yellow"
+            android:fontFamily="monospace"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="ESCANEAR"
+            android:textColor="@color/iron_bg"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Lista de Servidores Optimizada -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical" />
+</LinearLayout>
